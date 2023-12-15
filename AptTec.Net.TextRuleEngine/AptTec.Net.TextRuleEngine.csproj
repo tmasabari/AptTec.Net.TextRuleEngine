@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>netstandard2.0</TargetFramework>
+		<LangVersion>latest</LangVersion>
+		<Nullable>disable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<PackageProjectUrl>https://github.com/tmasabari/AptTec.Net.TextRuleEngine</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/tmasabari/AptTec.Net.TextRuleEngine</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
+		<Version>0.0.1</Version>
+		<Company>AptTec</Company>
+		<Copyright>Sabarinathan Arthanari</Copyright>
+		<Authors>Sabarinathan Arthanari</Authors>
+		<PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+
+		<PackageTags>text, engine, matching</PackageTags>
+		<Description>
+			This is .NET Standard 2.0 library to quickly integrate the text based matching engine.
+		</Description>
+
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <PackageReference Include="Microsoft.Bcl.AsyncInterfaces" Version="8.0.0" />
+	  <PackageReference Include="Microsoft.Bcl.HashCode" Version="1.1.1" />
+	  <PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
+	</ItemGroup>
+
+</Project>
